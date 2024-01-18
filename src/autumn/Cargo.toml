@@ -14,7 +14,7 @@ path = "src/main.rs"
 log = "0.4.11"
 ulid = "0.6.0"
 toml = "0.5.8"
-webp = "0.2.2"
+webp = "0.2.6"
 mime = "0.3.16"
 nanoid = "0.3.0"
 image = "0.24.6"
@@ -32,7 +32,7 @@ kamadak-exif = "0.5.4"
 sanitize-filename = "0.4.0"
 content_inspector = "0.2.4"
 serde = { version = "1.0.118", features = ["derive"] }
-tokio = { version = "1.4.0", features = ["rt", "io-util", "fs", "time"] }
+tokio = { version = "1.16.1", features = ["rt", "io-util", "fs", "time"] }
 
 tokio-cron-scheduler = "*"
 rust-s3 = "0.27.0-rc4"
