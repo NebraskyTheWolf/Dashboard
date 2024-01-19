@@ -33,7 +33,7 @@ services:
         target: /workspace
     ports:
       - '6001:6001'
-
+      
   caddy:
     image: caddy:2.7.6
     restart: unless-stopped
@@ -51,7 +51,7 @@ services:
     depends_on:
       - dashboard
       - db
-
+      
   mailpit:
     image: axllent/mailpit
     env_file: .env
