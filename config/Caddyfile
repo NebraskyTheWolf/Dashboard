@@ -1,5 +1,4 @@
 {$DASHBOARD_HOSTNAME} {
-	
 	route /ws {
 		@upgrade {
 			header Connection *Upgrade*
