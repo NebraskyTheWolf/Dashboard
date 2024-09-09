@@ -27,7 +27,7 @@
         "malcanek/idoklad-v2": "dev-master",
         "mongodb/laravel-mongodb": "4.0.0",
         "mongodb/mongodb": "1.17.0",
-        "nategood/httpful": "^0.3.2",
+        "nategood/httpful": "^1.0.0",
         "nesbot/carbon": "^2.72",
         "orchid/platform": "*",
         "picqer/php-barcode-generator": "^2.4",
